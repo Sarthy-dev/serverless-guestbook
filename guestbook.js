@@ -1,13 +1,13 @@
 /**
  * Web application
  */
-const apiUrl = '';
+const apiUrl = 'https://eu-gb.functions.appdomain.cloud/api/v1/web/parthasarthyiitvns%40gmail.com_dev/guestbook/save-guestbook-entry-sequence';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
     return $.ajax({
       type: 'GET',
-      url: `https://eu-gb.functions.appdomain.cloud/api/v1/web/parthasarthyiitvns%40gmail.com_dev/guestbook/save-guestbook-entry-sequence/entries`,
+      url: `${apiUrl}/entries`,
       dataType: 'json'
     });
   },
