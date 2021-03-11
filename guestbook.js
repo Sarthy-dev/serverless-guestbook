@@ -7,7 +7,7 @@ const guestbook = {
   get() {
     return $.ajax({
       type: 'GET',
-      url: `${apiUrl}/entries`,
+      url: `https://eu-gb.functions.appdomain.cloud/api/v1/web/parthasarthyiitvns%40gmail.com_dev/guestbook/save-guestbook-entry-sequence/entries`,
       dataType: 'json'
     });
   },
