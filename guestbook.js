@@ -1,7 +1,7 @@
 /**
  * Web application
  */
-const apiUrl = 'https://eu-gb.functions.appdomain.cloud/api/v1/web/parthasarthyiitvns%40gmail.com_dev/guestbook/save-guestbook-entry-sequence';
+const apiUrl = 'https://8c1a1d55.eu-gb.apigw.appdomain.cloud/guestbook';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
